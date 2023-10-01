@@ -1,9 +1,9 @@
 
-# Enum-AD: LDAP Search Tool
-Enum-AD is a powerful utility built in Rust, designed for efficient LDAP server searches. This tool empowers you to seamlessly connect to an LDAP server, perform authentication, and execute searches with personalized criteria.
+# LDAP Search Tool
+ is a powerful utility built in Rust, designed for efficient LDAP server searches. This tool empowers you to seamlessly connect to an LDAP server, perform authentication, and execute searches with personalized criteria.
 
 ## Features
-**Easy Setup**: Enum-AD simplifies LDAP searches with a straightforward setup process.
+**Easy Setup**: simplifies LDAP searches with a straightforward setup process.
 **Flexible Criteria**: Customize your search using a variety of criteria, including LDAP filter and attributes to retrieve.
 **Secure Authentication**: Safely authenticate using your username and password, ensuring a secure connection to the LDAP server.
 **Domain Integration**: Optionally, you can specify a domain component to construct the Distinguished Name (DN) for more precise searches.
@@ -34,7 +34,7 @@ git clone https://github.com/Devilicht/Enum-AD
 ```
 Navigate to the project directory: 
 ```sh
-cd Enum-AD
+cd Ldap-Search
 ```
 Build:
 ```sh
