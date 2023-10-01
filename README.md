@@ -10,7 +10,7 @@
 **Attribute Selection**: Choose specific attributes to retrieve in the search results, enhancing efficiency and relevance.
 
 ## Usage
-Execute Enum-AD by providing the required parameters in the command line:
+Execute Ldap-Search by providing the required parameters in the command line:
 ```sh
 cargo run -- -s <ldap_server:ldap_port> -u <username:password> [-d <domain_component>] [-f <filter>] [-a <attributes>]
 ```
