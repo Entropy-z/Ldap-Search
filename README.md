@@ -22,7 +22,7 @@ cargo run -- -s <ldap_server:ldap_port> -u <username:password> [-d <domain_compo
 
 Example:
 ```sh
-cargo run -- -s ldap.example.com:389 -u admin:password -d example -f "(objectclass=user)" -a cn,mail
+cargo run -s ldap.example.com:389 -u admin:password -d example -f "(objectclass=user)" -a cn,mail
 ```
 ## Installation
 
