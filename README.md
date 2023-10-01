@@ -30,7 +30,7 @@ cargo run -s ldap.example.com:389 -u admin:password -d example -f "(objectclass=
 
 Clone this repository: 
 ```sh
-git clone https://github.com/shadow-zq/Ldap-Search
+git clone https://github.com/Entropy-z/Ldap-Search
 ```
 Navigate to the project directory: 
 ```sh
